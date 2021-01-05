@@ -1,0 +1,50 @@
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:white;
+    color:white;
+}
+#holder{
+    margin-bottom: 150px;
+    padding: 30px;
+
+}
+
+.top{
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    margin-bottom: 25px;
+}
+
+
+.row-class{
+    border: 5px solid black;
+    text-align: center;
+    border:black;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #444;
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center;
+    
+}
+.listening{
+    
+    width: 100%;
+    height:100%;
+    display:block;
+}
+.past{
+    background-color: #CB5D5D;
+}
+
+.present{
+    background-color: #8FD3F5;
+
+}
+.future{
+    background-color: #88CB8C;
+}
