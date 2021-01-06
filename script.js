@@ -33,7 +33,9 @@ times = [
 
 //retieves saved string and formats it back into an array
 retrieve = localStorage.getItem("tasks")
+if(retrieve != null){
 times = JSON.parse(retrieve)
+}
 //sets the current day on the jumbotron
 date = dayjs().format('dddd[, ]MMMM[ ]DD[, ]YYYY')
 
