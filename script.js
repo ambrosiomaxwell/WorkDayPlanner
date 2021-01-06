@@ -34,7 +34,7 @@ times = [
 //retieves saved string and formats it back into an array
 retrieve = localStorage.getItem("tasks")
 console.log(retrieve)
-if(retrieve != null){
+if(retrieve != null || retrieve != undefined){
 times = JSON.parse(retrieve)
 }
 //sets the current day on the jumbotron
